@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F26522" />
+      <stop offset="100%" stop-color="#D94E15" />
+    </linearGradient>
+    <linearGradient id="favDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circle Rounded Background -->
+  <rect width="512" height="512" rx="128" fill="#0F172A" />
+
+  <!-- Packaging Graphic Icon -->
+  <g transform="translate(66, 75) scale(0.95)">
+    <!-- Plate -->
+    <ellipse cx="200" cy="140" rx="60" ry="45" fill="none" stroke="#FFFFFF" stroke-width="6" />
+    <ellipse cx="200" cy="140" rx="45" ry="32" fill="none" stroke="#FFFFFF" stroke-width="4" />
+
+    <!-- Coffee Cup -->
+    <g transform="translate(90, 100)">
+      <path d="M 0,25 L 45,25 L 42,15 C 40,10 35,10 35,10 L 10,10 C 10,10 5,10 3,15 Z" fill="#FFFFFF" />
+      <path d="M 4,28 L 41,28 L 36,80 L 9,80 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" />
+      <line x1="7" y1="45" x2="38" y2="45" stroke="#FFFFFF" stroke-width="3" />
+    </g>
+
+    <!-- Clamshell Box -->
+    <g transform="translate(150, 130)">
+      <path d="M 10,35 L 90,35 L 85,15 C 80,10 75,10 50,10 C 25,10 20,10 15,15 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" />
+      <path d="M 5,35 L 95,35 L 85,60 L 15,60 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" />
+    </g>
+
+    <!-- Cutlery -->
+    <g transform="translate(255, 90)">
+      <path d="M 5,0 L 5,30 M 12,0 L 12,30 M 19,0 L 19,30" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+      <path d="M 3,25 Q 12,40 21,25 L 12,40 L 12,90" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+    </g>
+    <g transform="translate(285, 95)">
+      <path d="M 5,0 C 15,15 15,35 5,45 L 5,90" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Box Base -->
+    <path d="M 50,200 L 200,270 L 200,340 L 50,270 Z" fill="url(#favDark)" stroke="#FFFFFF" stroke-width="3" />
+    <path d="M 200,270 L 350,200 L 350,270 L 200,340 Z" fill="#111827" stroke="#FFFFFF" stroke-width="3" />
+
+    <!-- Open Flaps Orange -->
+    <path d="M 50,200 L 0,150 L 130,120 L 200,270 Z" fill="url(#favOrange)" />
+    <path d="M 350,200 L 400,150 L 270,120 L 200,270 Z" fill="url(#favOrange)" />
+    <path d="M 50,200 L 200,270 L 140,220 L 0,150 Z" fill="#F26522" opacity="0.95" />
+    <path d="M 350,200 L 200,270 L 260,220 L 400,150 Z" fill="#E64A19" opacity="0.95" />
+  </g>
+</svg>
